@@ -130,22 +130,6 @@ document.onmousewheel = function(e) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var canvas = document.getElementById("canvas");
 
 canvas.width = window.innerWidth;
@@ -305,7 +289,7 @@ void main(){
   //White core
   col += 10.0*vec3(smoothstep(0.003, 0.001, dist));
   //Blue glow
-  col += glow * vec3(0.1,0.4,1.0);
+  col += glow *  vec3(1.0,0.05,0.3);
         
 	//Tone mapping
 	col = 1.0 - exp(-col);
