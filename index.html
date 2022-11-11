@@ -25,8 +25,12 @@
 
           
             <p>PHUONG QUYNH</p>
-            <audio src="./img/audio.mp3" id="audio" controls autoplay></audio>
-          
+            <audio id="player" autoplay loop controls="Play">
+              <source src="./img/audio.mp3" type="audio/mp3">
+            </audio>
+            
+            
+            
         
         </div>
         <div id="ground"></div>
@@ -37,6 +41,9 @@
       <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
+
+    
+   
       <script src="main.js"></script>
     </body>
 </html>

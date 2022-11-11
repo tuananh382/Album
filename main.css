@@ -159,6 +159,9 @@ p {
     
 }
 
-#audio {
-    display: none;
+#player {
+    display: block;
+    position: absolute;
+    top:0px;  
+    width: 100px;
 }
